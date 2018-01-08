@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#df546e"
+    tools:context="com.alquiler.appalquiler.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="DondeAlquilar"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_home_black_24dp" />
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            android:layout_width="300dp"
+            android:layout_height="97dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="160dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/dummy_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1.07"
+                android:background="@drawable/background_login"
+                android:pointerIcon="hand"
+                android:text="Enter Here"
+                android:textColor="#df546e"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

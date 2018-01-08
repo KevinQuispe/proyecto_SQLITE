@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="comboServicio">
+            <item>Ninguno</item>
+            <item>CABLE</item>
+            <item>INTERNET</item>
+            <item>CABLE E INTERNET</item>
+        </string-array>
+    
+</resources>

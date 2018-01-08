@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_usuario"
+            android:icon="@drawable/ic_user_add24dp"
+            android:title="Registrar Usuario" />
+        <item
+            android:id="@+id/nav_tipohab"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Tipo de Habitacion" />
+        <item
+            android:id="@+id/nav_habitacion"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Registrar Habitacion" />
+        <item
+            android:id="@+id/nav_inquilino"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Registrar Inquilino" />
+        <item
+            android:id="@+id/nav_asignarHab"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Asignar Habitacion" />
+    </group>
+    <item android:title="Consultas">
+        <menu>
+            <item
+                android:id="@+id/nav_listausers"
+                android:icon="@drawable/ic_listar_24dp"
+                android:title="Lista Usuarios" />
+            <item
+                android:id="@+id/nav_listinquilinos"
+                android:icon="@drawable/ic_listar_24dp"
+                android:title="Lista Inquilinos" />
+            <item
+                android:id="@+id/nav_habdisponible"
+                android:icon="@drawable/ic_listar_24dp"
+                android:title="Habitaciones disponibles" />
+            <item
+                android:id="@+id/nav_pagos"
+                android:icon="@drawable/ic_listar_24dp"
+                android:title="Lista de Pagos" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_salir"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Salir" />
+</menu>
